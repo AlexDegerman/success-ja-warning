@@ -1,0 +1,28 @@
+.flexing {
+
+}
+.flexing > * {
+  margin-right: 0.5rem;
+}
+
+.success {
+  margin-left: 1rem;
+}
+
+footer {
+  background-color: #F2F2F2;
+  padding-bottom: 0.5rem;
+}
+header {
+  background-color: #F2F2F2;
+  width: cover;
+  height: 100px;
+}
+@media only screen and (min-width: 426px) {
+  .flexing {
+    display: flex;
+  }
+  .info {
+    margin-bottom: 3.3rem;
+  }
+}
